@@ -4,18 +4,19 @@
   "description": "neural network based on math expressions",
   "main": "index.js",
   "dependencies": {
-    "rhq-expressions": "^1.0.0",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "rhq-expressions": "^1.0.5"
   },
   "devDependencies": {
-    "@types/lodash": "^4.14.171",
     "@types/jest": "^27.0.1",
+    "@types/lodash": "^4.14.171",
     "jest": "^27.0.6",
     "ts-jest": "^27.0.4",
     "ts-loader": "^9.2.3",
     "typescript": "^4.3.5",
     "webpack": "^5.45.1",
-    "webpack-cli": "^4.7.2"
+    "webpack-cli": "^4.7.2",
+    "tslib": "^2.1.0"
   },
   "scripts": {
     "test": "jest",
